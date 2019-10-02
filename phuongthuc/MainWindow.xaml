@@ -1,0 +1,23 @@
+﻿<Window x:Class="phuongthuc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:phuongthuc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="a =" HorizontalAlignment="Left" Height="45" Margin="105,19,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="txta" HorizontalAlignment="Left" Height="45" Margin="226,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" FontSize="20"/>
+        <Label Content="b = " HorizontalAlignment="Left" Height="45" Margin="105,82,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="txtb" HorizontalAlignment="Left" Height="45" Margin="226,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" FontSize="20"/>
+        <Label Content="Đáp số :" HorizontalAlignment="Left" Height="45" Margin="105,160,0,0" VerticalAlignment="Top" Width="100" FontSize="20"/>
+        <TextBox x:Name="txtDapan" HorizontalAlignment="Left" Height="45" Margin="226,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" FontSize="20"/>
+        <Button x:Name="btnTong" Content="Tổng" HorizontalAlignment="Left" Height="50" Margin="142,240,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="BtnTong_Click"/>
+        <Button x:Name="btnHieu" Content="Hiệu" HorizontalAlignment="Left" Height="50" Margin="285,240,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="BtnHieu_Click"/>
+        <Button x:Name="btnTich" Content="Tích" HorizontalAlignment="Left" Height="50" Margin="429,240,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="BtnTich_Click"/>
+        <Button x:Name="btnThuong" Content="Thương" HorizontalAlignment="Left" Height="50" Margin="142,336,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="BtnThuong_Click"/>
+        <Button x:Name="btnThoat" Content="Thoát" HorizontalAlignment="Left" Height="50" Margin="285,336,0,0" VerticalAlignment="Top" Width="100" FontSize="20" Click="BtnThoat_Click"/>
+
+    </Grid>
+</Window>
